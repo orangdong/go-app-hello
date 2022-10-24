@@ -2,6 +2,12 @@
 
 package main
 
-func main() {
+import (
+	"fmt"
 
+	gohello "github.com/orangdong/go-hello"
+)
+
+func main() {
+	fmt.Println(gohello.SayHello())
 }
